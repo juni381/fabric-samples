@@ -378,3 +378,4 @@ else
   printHelp
   exit 1
 fi
+
