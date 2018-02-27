@@ -11,7 +11,8 @@ echo "Build your first network (BYFN) end-to-end test"
 echo
 CHANNEL_NAME="$1"
 DELAY="$2"
-: ${CHANNEL_NAME:="mychannels"}
+LANGUAGE="$3"
+: ${CHANNEL_NAME:="mychannel"}
 : ${TIMEOUT:="60"}
 : ${LANGUAGE:="golang"}
 LANGUAGE=`echo "$LANGUAGE" | tr [:upper:] [:lower:]`
